@@ -17,6 +17,7 @@
 		E419B45E178ABB2500DAF948 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E419B43E178ABB2400DAF948 /* Cocoa.framework */; };
 		E419B466178ABB2500DAF948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E419B464178ABB2500DAF948 /* InfoPlist.strings */; };
 		E419B469178ABB2500DAF948 /* SortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E419B468178ABB2500DAF948 /* SortTests.m */; };
+		E419B477178AF0FA00DAF948 /* RBAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = E419B476178AF0FA00DAF948 /* RBAppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		E419B465178ABB2500DAF948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E419B467178ABB2500DAF948 /* SortTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortTests.h; sourceTree = "<group>"; };
 		E419B468178ABB2500DAF948 /* SortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortTests.m; sourceTree = "<group>"; };
+		E419B475178AF0FA00DAF948 /* RBAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBAppController.h; sourceTree = "<group>"; };
+		E419B476178AF0FA00DAF948 /* RBAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBAppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				E419B450178ABB2400DAF948 /* RBAppDelegate.h */,
 				E419B451178ABB2400DAF948 /* RBAppDelegate.m */,
+				E419B475178AF0FA00DAF948 /* RBAppController.h */,
+				E419B476178AF0FA00DAF948 /* RBAppController.m */,
 				E419B453178ABB2400DAF948 /* MainMenu.xib */,
 				E419B445178ABB2400DAF948 /* Supporting Files */,
 			);
@@ -264,6 +269,7 @@
 			files = (
 				E419B44B178ABB2400DAF948 /* main.m in Sources */,
 				E419B452178ABB2400DAF948 /* RBAppDelegate.m in Sources */,
+				E419B477178AF0FA00DAF948 /* RBAppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
